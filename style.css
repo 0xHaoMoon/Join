@@ -271,6 +271,11 @@ body {
     align-items: center;
 }
 
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .gap {
     gap: 4vw;
 }
@@ -413,6 +418,7 @@ body {
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .login-page {
         width: 86vw;
+        height: 68vh;
     }
 
     .forgotmypwFont{
@@ -428,9 +434,9 @@ body {
     }
     
     .keyIMG{
-        right: 2rem;
-
-            
+        margin-right: 0.5rem;
+        margin-top: 0.6rem;
+        right: unset;
     }
     
 
