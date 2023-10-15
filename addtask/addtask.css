@@ -39,6 +39,9 @@ body::-webkit-scrollbar-thumb {
 
 .addTask-content {
     display: flex;
+    scroll-behavior: smooth;
+    overflow: auto;
+    height: 60vh;
 }
 
 .addTask-leftSide {
@@ -516,6 +519,10 @@ form {
 @media only screen and (max-width: 500px) {
     #successMessage{
         width: 200px;
+    }
+
+    .addTask-content {
+        height: 52vh;
     }
 
 }

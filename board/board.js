@@ -125,6 +125,7 @@ function showFilteredTasks(filteredTasks) {
 function openTask(elementId) {
   let currentTask = document.getElementById('edit-task');
   let kanban = document.getElementById('kanban-board');
+  let backgroundTask = document.getElementById('content');
 
   let date = new Date("July 21");
 
@@ -137,6 +138,7 @@ function openTask(elementId) {
 
   currentTask.classList.remove('d-none');
   kanban.classList.add('blur');
+
 }
 
 
