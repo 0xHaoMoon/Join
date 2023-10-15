@@ -1030,3 +1030,13 @@ body::-webkit-scrollbar-thumb {
         min-width: 45vh;
     }
 }
+
+@media only screen and (min-width: 801px) {
+    .screen-container{
+        height: 86vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
